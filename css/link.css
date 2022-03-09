@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:rebeccapurple;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+
+}
+
+.intro-image{
+    background-attachment: fixed;
+    background-image: url("../img/img4.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.intro-image__text a{
+    background-color: #62331154;
+    border: 2px solid #070707;
+    color: #fae0a5e0;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 3.5s ease-in-out;
+}
+
+
+.intro-image_text a:hover{
+    transform: scale(1.2);
+
+}   
+
+.intro-text{
+    background-color: #a84747;
+    color: #dad9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    margin-bottom: -100px;
+    height: 250px;
+    padding: 0 15rem;
+    clip-path: polygon(50% 9%, 100% 0, 100% 60%, 93% 98%, 5% 98%, 0% 60%, 0 0);
+}
+.intro-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url("../img/img5.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a{
+    background-color: #96a3b94f;
+    border: 2px solid #191211;
+    color: #be330ca1;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 3s ease-in-out;
+}
+
+.packaging-image__text a:hover{
+    transform: scale(1.2);
+}
+
+
+.packaging-text{
+    background-color: #b64d36;
+    color: #dbc5ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+.packaging_text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.tutorials-image{
+    background-attachment: fixed;
+    background-image: url("../img/img3.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tutorials-image__text {
+    color: #f68754c5;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 2s ease-in-out
+
+}
+.tutorials-image__text a:hover{
+    transform: scale(1.2);
+}
+.btn{
+    border-bottom: 0.2rem solid rgb(194, 83, 83);
+    color:white ;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    
+
+}
+.footer{
+    height: 250px;
+    background-color:#416ec7 ;
+    color: #f1f2f7;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a{
+    color:#b7bccb ;
+    text-decoration: none;
+}
+.footer ul li a:hover {
+    color: rgb(238, 15, 171)
+    
+   
+}
